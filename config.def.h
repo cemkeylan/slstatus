@@ -69,8 +69,8 @@ static const struct arg args[] = {
 	//{ wifi_essid,        " %s |",                                  "wlan0" },
 	//{ ipv4,	       " %s |",                                  "wlan0" },
 	{ run_command,       " VOL: %s |",       "pamixer --get-volume-human"  },
-	{ battery_perc,      " BAT: %s%% ",                            "BAT0"  },
-	{ battery_state,     " %s |",                                  "BAT0"  },
+	{ battery_state,     " BAT: %s ",                              "BAT0"  },
+	{ battery_perc,      "%s%% |",                                 "BAT0"  },
 	{ datetime,          " %s;",                      "%a %e %b %Y %H:%M"  },
 	//The ";" above is for switching to the bottom bar
 	//Everything below is for the bottom bar
