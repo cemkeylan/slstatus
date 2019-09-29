@@ -1,0 +1,22 @@
+slstatus-carbs
+==============
+
+Fork of suckless.org's slstatus, tuned for CARBS
+
+
+Installation
+------------
+
+$ make
+# make install
+
+
+Notes
+-----
+
+This fork takes advantage of the dwm-extrabar patch
+https://dwm.suckless.org/patches/extrabar/
+
+There are programs and scripts used by Carbs (e.g PulseAudio, 
+nightmode), you might want to tailor the script to your needs
+if you are going to install this fork for some reason.
