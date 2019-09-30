@@ -52,6 +52,7 @@
 		} map[] = {
 			{ "Charging",    "+" },
 			{ "Discharging", "-" },
+			{ "Full",   "\u2713" },
 		};
 		size_t i;
 		char path[PATH_MAX], state[12];
